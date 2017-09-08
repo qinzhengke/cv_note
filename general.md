@@ -1,6 +1,8 @@
 ### 一些电子图书：
 - Computer Vision Algorithms and Applications，作者Richard Szeliski
+
 > http://szeliski.org/Book/
+
 这本书讲述了计算机视觉综述性的内容，但是很新，很多近几年的东西都能找得到。
 
 - Multiple View geometry in Computer Vision，作者Richard Hartley
