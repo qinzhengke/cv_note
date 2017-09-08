@@ -14,6 +14,8 @@ Monocular VO，基于OpenCV实现：https://avisingh599.github.io/vision/monocul
 
 ### 一些图书：
 - **Davide Scaramuzza**
+
 > Visual Odometry Part I: The First 30 Years and Fundamentals
+
 > Visual Odometry: Part II - Matching, Robustness, and Applications
 
