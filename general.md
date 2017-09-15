@@ -18,6 +18,8 @@
 
 > Stereo Vision: Algorithms and Applications 作者：Stefano Mattoccia, University of bologna （博洛尼亚大学，意大利）
 
+长达208页的课件包含了很多Stereo Vision的基础知识。
+
 ### 一些网站
 
 - CrazePony开源四轴飞行器：
