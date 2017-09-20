@@ -40,10 +40,18 @@ Liulina 603
 
 ### 一些paper
 
-- GCPR 2014年的一篇文章，提供了一个带有非常精准的grouth truth的数据集，效果非常惊艳，被收录在Middlebury中。
+- GCPR 2014年的一篇文章，提供了一个带有非常精准的grouth truth的数据集，使用结构光系统实现，效果非常惊艳，被收录在Middlebury中。
 
 > High-Resolution Stereo Datasets with Subpixel-Accurate Ground Truth.
 
 ### 一些基础名词
 
 **homologous**：同源的，例如左右两图中的两个点是同源的，表示它们对应的三维空间点是同一个。
+
+**stereo rig**：双目系统，双目装备，rig是装备的意思。
+
+**DSLR camera**：Digital Single Len Reflex camera，数码单镜头反光相机，也就是常说的单反。
+
+**round to integer**：转换成整数，rounding a numerical value是一个数学上的专用词汇，意思是将高精度的数转换成低精度的表达，过程可能会丢失精度。
+
+**ambient**：
