@@ -55,3 +55,5 @@ Liulina 603
 **round to integer**：转换成整数，rounding a numerical value是一个数学上的专用词汇，意思是将高精度的数转换成低精度的表达，过程可能会丢失精度。
 
 **ambient**：
+
+**KLT**：Kanade-Lucas-Tomasi目标跟踪算法，主要基于光流法。
