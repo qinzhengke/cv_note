@@ -73,8 +73,31 @@ int init_bmp_header(FILEHEADER *fh, INFOHEADER *ih, int width, int height)
 最后的写文件：
 
 ```cpp
+	int save_bmp_file(string path, int width, int height, unsigned char *buf)
+{
+	ofstream file(path, ios::binary);
+	if (!file.is_open())
+		PRINT_AND_RETURN("Cannot open file to write,", 1);
+
+	FILEHEADER fh;
+	INFOHEADER ih;
+	init_bmp_header(&fh, &ih, width, height);
+
+	uchar palette[1024];
+	for (int i = 0; i < 256; i++)
+	{
+		palette[i*4] = i;
+		palette[i*4+1] = i;
+		palette[i*4+2] = i;
+		palette[i*4+3] = 0;
+	}
+
 	file.write((char*)(&fh), sizeof(FILEHEADER));
 	file.write((char*)(&ih), sizeof(INFOHEADER));
 	file.write((char*)palette, 1024);
 	file.write((char*)buf, ih.imagesize);
+	file.close();
+
+	return 0;
+}
 ```
